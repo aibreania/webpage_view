@@ -1,2 +1,2 @@
 # webpage_view
-coursework and projects regarding webpages using HTML, CSS and JavaScript
+Describes the html file of webpage1.
