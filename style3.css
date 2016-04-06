@@ -1,0 +1,99 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  height: 150px;
+}
+
+.header .container {
+	position: relative;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 45px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  top: 45px;
+  position: relative;
+  color: #F01251;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  border-radius: 4px;
+}
+
+.header .active {
+  background-color: #F01251;
+  color: white;
+}
+
+.header .active:hover {
+  background: #3370BA;
+	cursor: pointer; 
+}
+
+.header .nav-pills:hover {
+  background: #ECECE9;
+  cursor: pointer;
+}
+
+.main {
+  height: 1190px;
+}
+
+.main .container {
+  position: relative;
+}
+
+.main img {
+  width: 380px;
+  height: 380px;
+  padding: 0px 23px 20px 0px;
+}
+
+.footer .container{
+  position: relative;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.footer ul li {
+  color: #404040;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline;
+  padding: 0 50px 0 0;
+}
+
+.footer p {
+  font-family: sans-serif;
+  margin-right: 20px;
+}
